@@ -18,3 +18,15 @@ variable "common_tags" {
     }
   
 }
+
+#Route 53 record
+#Z07723142N736V4HE6Z3C
+
+variable "r53_zone_id" {
+    default = "Z07723142N736V4HE6Z3C"
+  
+}
+
+variable "domain_name" {
+  default = "daws78s-nnr.online"
+}
